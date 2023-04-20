@@ -20,6 +20,7 @@ class MyCustomTableViewCell: UITableViewCell {
     @IBOutlet weak var mySecondLabel: UILabel!
     @IBOutlet weak var myImageView: UIImageView!
     
+    // Nib = vista - celda
     override func awakeFromNib() {
         super.awakeFromNib()
         

@@ -28,6 +28,7 @@ class ViewController: UIViewController {
     let footerText2 = "Footer celdas custom"
     private let myCountries = ["España","Japón","Portugal","México","Colombia","Francia","Alemania","Cuba",]
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
