@@ -28,6 +28,9 @@ class MyCustomTableViewCell: UITableViewCell {
         myFirstLabel.font = UIFont.boldSystemFont(ofSize: 20)
         myFirstLabel.textColor = .blue
         backgroundColor = UIColor(named: myColorGreen)
+        mySecondLabel.numberOfLines = 0 // Líneas infinitas label
+        
+        
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
